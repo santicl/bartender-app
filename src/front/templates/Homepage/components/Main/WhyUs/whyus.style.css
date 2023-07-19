@@ -1,0 +1,79 @@
+.WhyUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    margin-top: 80px;
+}
+
+.WhyUs-Text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.WhyUs-Text-content h2 {
+    font-size: 30px;
+    color: rgb(59, 59, 59);
+}
+
+.WhyUs-Text-content h2 span {
+    color: #ffb03b;
+}
+
+.WhyUs-Containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+    padding: 0 80px 80px 80px;
+}
+
+.WhyUs-Containers div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    width: 295px;
+    height: 350px;
+    box-shadow: 5px 5px 5px 5px rgb(105, 104, 104, .15);
+    border: .20px solid rgb(226, 223, 223);
+    border-radius: 12px;
+    transition: all ease-in-out .4s;
+}
+
+.WhyUs-Containers div:hover {
+    background: #ffb03b;
+    box-shadow: 5px 5px 5px 5px rgb(255, 176, 59, .15);
+    > span {
+        color: white;
+    }
+    > h3 {
+        color: white;
+    }
+    > p {
+        color: white;
+    }
+}
+
+.WhyUs-Containers div span {
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffb03b;
+}
+
+.WhyUs-Containers div h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(78, 78, 78);
+}
+
+.WhyUs-Containers div p {
+    font-size: 14px;
+    color: rgb(136, 134, 134);
+}

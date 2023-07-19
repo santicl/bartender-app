@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #35322d;
+    color: white;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+footer div h2 {
+    font-size: 35px;
+    color: #ffb03b;
+}
+
+.Footer-container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.Footer-container div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #504d47;
+    cursor: pointer;
+    transition: all ease-in-out .4s;
+}
+
+.Footer-container div a:hover {
+    background: #ffb03b;
+}
